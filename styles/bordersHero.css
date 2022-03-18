@@ -1,0 +1,50 @@
+.borderTop,.borderBottom,.borderLeft,.borderRight {
+    background-color: #faa795;
+    position: fixed;
+    z-index: 1;
+}
+
+.borderTop,.borderBottom {
+    width: 100%;
+}
+
+.borderLeft,.borderRight {
+    height: 100%;
+    width: 5.5%;
+}
+
+.borderTop {
+    top: 0;
+    height: 21%;
+    background: linear-gradient(#ffc6b9, #faa795);
+    z-index: 4;
+}
+
+.borderBottom {
+    bottom: 0;
+    height: 27%;
+    background: linear-gradient(#faa795, #b25440);
+    z-index: 4;
+}
+
+.borderLeft{
+    right: 0;
+    animation-duration: 1.2s;
+    animation-name: slideToSides;
+}
+
+.borderRight{
+    z-index: 5;
+    left: 0;
+    background: linear-gradient(0.25turn, #000000, #3f3f3f);
+}
+
+@keyframes slideToSides {
+    from {
+        width: 94%;
+    }
+
+    to {
+        width: 5.5%;
+    }
+}

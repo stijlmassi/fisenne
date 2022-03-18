@@ -1,0 +1,26 @@
+.heroLabel {
+    position: fixed;
+    left: 61%;
+    background-color: #007200;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    z-index: 6;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    outline: .2rem solid #005600;
+    animation-name: label;
+    animation-duration: 1s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes label {
+    from {
+        top: -5%;
+        opacity: 50%;
+    }
+    to {
+        top: 0;
+        opacity: 100%;
+    }
+}

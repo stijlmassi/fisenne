@@ -1,0 +1,21 @@
+.heroAnno {
+    z-index: 5;
+    position: fixed;
+    top: 69.5%;
+    left: 76%;
+    font-family: "Permanent Marker",cursive;
+    font-size: 1.6rem;
+    animation-duration: 1.2s;
+    animation-name: anno;
+}
+
+@keyframes anno {
+    from {
+        left: 79%;
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+        left: 76%;
+    }
+}

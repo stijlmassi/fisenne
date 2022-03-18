@@ -1,0 +1,7 @@
+.backgroundVideo {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -45%);
+    z-index: 0;
+}

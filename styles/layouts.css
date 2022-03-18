@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+.centered-vertically {
+    align-content: center;
+}
+
+.centered-horizontally {
+    justify-content: center;
+}
+
+.start-horizontally {
+    justify-content: flex-start;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.start-vertically {
+    align-content: flex-start;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}

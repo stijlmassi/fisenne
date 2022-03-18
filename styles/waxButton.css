@@ -1,0 +1,14 @@
+.waxButton {
+    position: fixed;
+    top: 87%;
+    left: 43%;
+    width: 16rem;
+    height: 5rem;
+    border: none;
+    background-color: white;
+    border-radius: 10%;
+    outline: 8px dashed white;
+    z-index: 5;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

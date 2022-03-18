@@ -1,0 +1,37 @@
+.bigRibbon,.thinRibbon1,.thinRibbon2 {
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+    animation-name: ribbon;
+    animation-duration: 1.2s;
+    background: linear-gradient(#da4949, #8c0909);
+}
+
+.thinRibbon1,.thinRibbon2{
+    width: 0.3%;
+}
+
+.bigRibbon {
+    width: 4%;
+    left: 14%;
+}
+
+.thinRibbon1 {
+    left: 13.4%;
+}
+
+.thinRibbon2 {
+    left: 18.3%;
+}
+
+@keyframes ribbon {
+    from {
+        height: 0;
+        background-color: #8c0909;
+    }
+
+    to {
+        height: 100%;
+        background: linear-gradient(#da4949, #8c0909);
+    }
+}
